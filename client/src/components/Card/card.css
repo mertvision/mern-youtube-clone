@@ -1,0 +1,48 @@
+.card {
+    width: 360px;
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.cardImg {
+    width: 360px;
+    height: 200px;
+    background-color: #999;
+    object-fit: cover;
+}
+
+.cardDetails {
+    display: flex;
+    margin-top:8px;
+    gap: 10px;
+}
+
+.cardDetailsChannelImg{
+    width: 40px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #999;
+    object-fit: cover;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.cardDetailsTitle{
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.cardDetailsChannelName{
+    font-size: 15px;
+    color: #aaaaaa;
+    margin: 5px 0px;
+}
+
+.cardDetailsInfo{
+    font-size:13px;
+    color: #aaaaaa;
+}

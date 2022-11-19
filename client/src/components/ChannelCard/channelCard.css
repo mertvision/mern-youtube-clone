@@ -1,0 +1,62 @@
+.channelCard {
+    width: 250px;
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.channelCardImg {
+    width: 300px;
+    height: 180px;
+    background-color: #999;
+    object-fit: cover;
+}
+
+.channelCardDetails {
+    display: flex;
+    margin-top:8px;
+    gap: 10px;
+}
+
+.channelCardChannelImg{
+    width: 40px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #999;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.channelCardTexts{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.channelCardTitle{
+    font-size: 17px;
+}
+
+.channelCardChannelName{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin: 5px 0px;
+}
+
+.channelCardInfo{
+    font-size:12px;
+    color: #aaaaaa;
+}
+
+.deleteVideoButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    border: 1px solid #373737;
+    background-color: transparent;
+    cursor: pointer;
+}

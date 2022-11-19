@@ -1,0 +1,85 @@
+.comment{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 1000px;
+    min-height: 100px;
+}
+
+.commentImageContainer{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.commentImage {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.commentInfosContainer {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 900px;
+}
+
+.commentInfosUsername{
+    display: flex;
+    align-items: center;
+    gap: 20px;;
+}
+
+.commentUsername{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.commentCreatedAt {
+    font-size: 12px;
+}
+
+.commentInfosText{
+    max-width: 950px;
+    max-height: 500px;
+}
+
+.commentText{
+    font-size: 15px;
+    width: 950px;
+    word-wrap: break-word;
+}
+
+.commentInfosBottom{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 900px;
+    gap: 15px;
+}
+
+.commentInfosBottomLikes{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.commentInfosBottomLikes>span{
+    font-size: 15px;
+}
+
+.commentInfosBottomDisslikes{
+    display: flex;
+    align-items: center;
+}
+
+.commentInfosBottomOkAgain{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    margin-left: 50px;
+}

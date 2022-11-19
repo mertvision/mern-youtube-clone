@@ -1,0 +1,62 @@
+.specialChannel{
+   display: flex;
+   flex-direction: column;
+}
+
+.channelTopContainer {
+    height: 120px;
+    border: 1px solid #373737;
+    padding-top: 5px;
+}
+
+.channelTopTop {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.channelPersonContainer{
+    display: flex;
+    flex: 2;
+    align-items: center;
+    gap: 15px;
+}
+
+.channelPersonImg{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.channelPersonName{
+    font-size: 25px;
+}
+
+.channelButtonContainer {
+    position: absolute;
+}
+
+.channelButton{
+    position: relative;
+    left: 1250px;
+    padding: 15px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 15px;
+    border: 1px solid #373737;
+    cursor: pointer;
+}
+
+.channelBottomVideosTitle{
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.channelVideos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}

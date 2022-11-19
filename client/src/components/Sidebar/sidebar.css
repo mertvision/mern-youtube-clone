@@ -1,0 +1,70 @@
+.sidebar{
+    width: 250px;
+    background-color: #202020;
+    color: white;
+    font-size: 16px;
+    height: 100vh;
+    position: fixed;
+}
+
+.sidebarWrapper{
+    padding: 20px 20px;
+}
+
+.sidebarWrapperItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 8px 0px;
+}
+
+.sidebarWrapperItem:hover{
+    background-color: "#373737";
+}
+
+.sidebarHr {
+    margin: 15px 0px;
+    border: 0.5px solid #373737;
+    width: 200px;
+}
+
+.sidebarSignIn {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.sidebarSignInButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100px;
+    margin: 15px 0px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #3ea6ff;
+    border: 1px solid #3ea6ff;
+    padding: 5px;
+}
+
+.sidebarWrapperItemBold{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.sidebarYoutubeSpecial{
+    margin: 10px 0px;
+}
+
+.sidebarYoutubeSpecialItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 10px 0px;
+}
+

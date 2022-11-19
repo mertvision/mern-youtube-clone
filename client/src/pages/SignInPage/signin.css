@@ -1,0 +1,60 @@
+.signin{
+   height: calc(100vh);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.signinLogo{
+   margin-bottom: 15px;
+   position: absolute;
+   top: 200px;
+}
+
+.signinWrapper{
+   border: 1px solid #373737;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: #202020;
+   padding: 20px 50px;
+   gap: 10px;
+   position: absolute;
+   top: 270px;
+}
+
+.signinWrapperTitle{
+   font-size: 23px;
+}
+
+.signinWrapperInput{
+   border: 1px solid #373737;
+   border-radius: 3px;
+   padding: 10px;
+   background-color: transparent;
+   width: 100%;
+   margin-top: 15px;
+}
+
+.signinWrapperInput::placeholder{
+   color: white
+}
+
+.signinWrapperButton{
+   border-radius: 3px;
+   border: none;
+   padding: 10px 15px;
+   margin-top: 10px;
+   cursor: pointer;
+   font-weight: 500;
+   background-color: #373737;
+   color: #aaaaaa;
+}
+
+.signinWrapperText{
+   font-size: 15px;
+   margin-top: 35px;
+}
+

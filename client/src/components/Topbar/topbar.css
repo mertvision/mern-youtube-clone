@@ -1,0 +1,84 @@
+.topbar {
+    position: sticky;
+    top: 0;
+    background-color: #202020;
+    height: 60px;
+}
+
+.topbarWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+}
+
+.topbarLogo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    left: 35px;
+    color: White;
+    cursor: pointer;
+}
+
+.topbarLogoImage{
+    height: 30px;
+    width: 37px;
+}
+
+.topbarLogoText{
+    font-size: 17px;
+}
+
+.topbarSearch{
+    position: absolute;
+    left: 650px;
+    border: 1px solid #ccc;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 3px
+}
+
+.topbarSearch:hover{
+    border: 1px solid #3ea6ff;
+}
+
+.topbarSearchInput{
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    color: white;
+}
+
+.topbarSignIn{
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    border: 1px solid #3ea6ff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.topbarSignInButton{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #3ea6ff;
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-weight: 400;
+};
+
+
+

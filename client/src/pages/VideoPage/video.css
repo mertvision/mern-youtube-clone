@@ -1,0 +1,185 @@
+.video {
+    min-height: calc(100vh);
+    max-width: 100vw;
+    display: flex;
+}
+
+.videoContent {
+    flex: 8;
+}
+
+.recommendation {
+    flex: 2;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoWrapper {
+    width: 1000px;
+    height: 500px;
+}
+
+.videoTitle {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.videoDetails {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.videoInfo {
+    color: #aaaaaa;
+}
+
+.videoButtons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    right: 0
+}
+
+.videoButton {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.Hr {
+    margin: 15px 0px;
+    border: 0.2px solid #373737;
+    width: 1000px;
+}
+
+.channel {
+    display: flex;
+}
+
+.channelImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.channelInfo {
+    display: flex;
+    gap: 20px;
+}
+
+.channelDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 5px;
+}
+
+.channelDetail {
+    font-weight: 500;
+}
+
+.channelCounter {
+    color: #aaaaaa;
+    font-size: 15px;
+}
+
+.channelDescription {
+    font-size: 15px;
+}
+
+.channelSubButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #373737;
+    color: white;
+    width: 185px;
+}
+
+.commentsHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 35px;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 25px;
+}
+
+.commentsLength{
+    font-weight: 400;
+}
+
+.commentsSorting {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.addComment {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 1000px;
+}
+
+.addCommentPerson {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border: none;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+.addCommentInput {
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    background-color: transparent;
+    min-width: 750px;
+    min-height: 25px;
+}
+
+.addCommentInput:hover {
+    border: 1px solid #3ea6ff;
+}
+
+.addCommentHr {
+    margin: 15px 0px;
+    border: 0.2px solid #373737;
+    width: 930px;
+}
+
+.addCommentButton {
+    border: none;
+    background-color: #373737;
+    color: white;
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.addCommentButton:hover {
+    border: 1px solid #3ea6ff;
+}

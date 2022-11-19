@@ -1,0 +1,9 @@
+.mainWrapper{
+    background-color: #181818;
+    min-height: calc(100vh - 50px);
+}
+
+.wrapper {
+    margin-left: 250px;
+    padding: 30px 70px;
+}

@@ -1,0 +1,46 @@
+.smallCard {
+    width: 250px;
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.smallCardImg {
+    width: 250px;
+    height: 130px;
+    background-color: #999;
+    object-fit: cover;
+}
+
+.smallCardDetails {
+    display: flex;
+    margin-top:8px;
+    gap: 10px;
+}
+
+.smallCardDetailsChannelImg{
+    width: 40px;
+    height: 37px;
+    border-radius: 50%;
+    background-color: #999;
+    object-fit: cover;
+    margin-left: 10px;
+}
+
+.smallCardDetailsTitle{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.smallCardDetailsChannelName{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin: 5px 0px;
+}
+
+.smallCardDetailsInfo{
+    font-size:12px;
+    color: #aaaaaa;
+}
