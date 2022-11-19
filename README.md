@@ -1,8 +1,8 @@
 ## Youtube clone with MERN Stack (React.js, Node.js, Express.js, MongoDB)
 
-1. [Start]()
-2. [Project Informations]()
-3. [Snapshots]()
+1. [Start](https://github.com/mertkaandev/mern-youtube-clone/tree/master#start)
+2. [Project Informations](https://github.com/mertkaandev/mern-youtube-clone/tree/master#project-informations)
+3. [Snapshots](https://github.com/mertkaandev/mern-youtube-clone/tree/master#snapshots)
 
 ## Start
 
