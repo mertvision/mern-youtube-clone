@@ -71,10 +71,6 @@ const SignIn = () => {
         }
   };
 
-  /* firebase.js dosyasındaki yetkilendirmeleri kullanıyoruz. 
-  Ardından bize bir result veya error dönüyor. "then" ve "catch" ile bunları yakalayabiliriz.
-  Gelen Google kullanıcı bilgilerini MongoDB'ye yeni kullanıcı olarak kaydedeceğiz. */
-
   return (
     <div className='signin'>
       
@@ -100,10 +96,6 @@ const SignIn = () => {
 
            <span style={{marginTop:"5px"}}>or</span>
 
-           {/* Google Firebase Auth Sign In Pop Up 
-           onClick olduğunda pop up'a yönlendirme yapacak.
-           Fonksiyonu kendimiz yazıyoruz.*/}
-        
            <span className='signinWrapperText'>Don't you have an account?</span>
            <Link to="/signup" style={{textDecoration: "none", color:"inherit", fontSize:"16px"}}>Sign Up</Link>
       </div>
