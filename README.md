@@ -10,7 +10,8 @@
 
 The project contains two basic folders: `client` and `server`. Client is the front end of the application and is written in React.js. Server is the back end of the application and is written in Node.js. To run this project, download it to your computer and open it with a code editor:
 
-![client server](https://user-images.githubusercontent.com/101933251/202870670-44fd96a2-6961-4abe-be8a-a8d84066e01b.JPG)
+![client server]![Screenshot 2023-08-08 004239](https://github.com/mertkaandev/mern-youtube-clone/assets/87437738/cb2a8a87-841b-4b4b-9543-d41ce7561a98)
+
 
 For both main files in the project folder, you have to go to the terminal and install the NPM dependencies. To do this:
 
